@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Mali', cursive;
+    background-color: cadetblue;
+}
+header{
+    width: 100%vw;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    padding-top: 10px;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+.showcase{
+    display: flex;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: calc(100vh - 40px);
+    opacity: 0.6;
+}
+.bg-img-title{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%) ;
+}
+.title-cuadrado, .title-triangulo, .title-circulo{
+    text-align: center;
+    width: 480px;
+    background-color: rgb(44, 48, 15);
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
+.instructions{
+    text-align: center;
+    width: auto;
+    background-color: rgb(37, 41, 11);
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(226, 209, 209);
+    margin-right: 10px;
+}
+form{
+    padding: 15px;
+    margin-bottom: 30px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+input{
+    width: 70px;
+    height: 35px;
+    margin-right: 20px;
+}
