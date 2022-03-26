@@ -17,6 +17,14 @@ header{
 h1{
     padding-top: 10px;
 }
+span{
+    display: flex;
+    font-size: 1rem;
+    position: relative;
+    justify-content: flex-end;
+    margin-top: -10px;
+    margin-right: 50px;
+}
 body{
     align-items: center;
     justify-content: center;
