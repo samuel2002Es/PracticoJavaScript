@@ -9,13 +9,10 @@ html{
     background-color: cadetblue;
 }
 header{
-    width: 100%vw;
+    width: 100vw;
     height: 40px;
     margin: 0 auto;
     text-align: center;
-}
-h1{
-    padding-top: 10px;
 }
 span{
     display: flex;

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Mali', cursive;
+    background: rgb(2,0,36);
+    background: linear-gradient(6deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(6,71,162,1) 45%, rgba(2,158,219,1) 67%, rgba(0,212,255,1) 100%);
+}
+header{
+    padding: 30px;
+    width: 100vw;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title{
+    font-size: 6rem;
+}
+.asking{
+    min-height: 600px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 700px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid white;
+    padding: 20px;
+    box-shadow: 0px 0px 40px black;
+}
+.asking input{
+    border-radius: 20px;
+    border: none;
+}
+.asking button{
+    height: 20px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.asking h3{
+    color: white;
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.asking label{
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+.asking input{
+    margin-bottom: 5px;
+}
+.asking button{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.asking p{
+    height: 30px;
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.asking h4{
+    font-size: 1.8rem;
+    color: white;
+}
+
+@media only screen and (max-width: 720px) {
+    .title{
+        font-size: 4rem;
+    }
+}
