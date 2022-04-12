@@ -37,6 +37,8 @@ function onClickButtonPriceDiscountCupon(){
 
     const ResultPC = document.getElementById("InputCupon");
     const couponValue = ResultPC.value;
+
+    /* cupones nombres escribir aqui */
     const coupons = [
         {
             name: "Sam",
@@ -65,5 +67,4 @@ function onClickButtonPriceDiscountCupon(){
             ResultPYC.innerText = precioConDescuentoYCupon;
         }
     });
-    
 }
