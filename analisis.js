@@ -1,6 +1,6 @@
 const salariosCol = colombia.map(
     function (personita) {
-        return personita.salay;
+        return personita.salary;
     }
 );
 /* ordenamos los salarios */
@@ -52,6 +52,16 @@ function medianaSalarios(lista) {
         return  personitaMitad;
     }
 }
+const medianaGeneralCol =medianaSalarios(salariosColSorted)
+
+/* mediana del top 10% */
+
+const spliceStart =(salariosColSorted.length * (90)/100);
+const spliceCount = salariosColSorted.length - spliceStart;
+const salarioscolTop10 = salariosColSorted.splice(spliceStart, spliceCount);
+
+const medianaTop10Col =medianaSalarios(salarioscolTop10);
 console.log(
-    medianaSalarios(salariosColSorted)
+    medianaGeneralCol,
+    medianaTop10Col,
 );
